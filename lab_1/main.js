@@ -1,7 +1,7 @@
 "use strict";
 
 import getCoefficients from "./src/getCoefficients.js";
-import { printEquation, printSolution } from "./src/printSolution.js";
+import { printEquation, printSolution } from "./src/print.js";
 import { calculateEquation } from "./utils/quadraticEquation.js";
 import { closeReadline } from "./utils/readline.js";
 
