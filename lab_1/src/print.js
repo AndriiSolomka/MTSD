@@ -1,7 +1,5 @@
 const printSolution = (result) => {
-  console.log(result.message);
-
-  if ("x1" in result) console.log(`x1 = ${result.x1}`);
+  console.log(result);
 };
 
 function printEquation({ a, b, c }) {
