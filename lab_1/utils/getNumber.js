@@ -1,4 +1,6 @@
-import rl from "./readline";
+"use strict";
+
+import { rl } from "./readline.js";
 
 const getNumber = async (prompt) => {
   const input = await rl.question(prompt);
